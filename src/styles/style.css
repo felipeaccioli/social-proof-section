@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+@import url('https://fonts.google.com/specimen/League+Spartan');
+
+:root {
+--cor0: hsl(300, 43%, 22%);
+--cor1: hsl(333, 80%, 67%);
+--cor2: hsl(303, 10%, 53%);
+--cor3: hsl(300, 24%, 96%);
+--cor4: hsl(0, 0%, 100%);
+--fonte-sistema: Arial, Verdana, Helvetica, sans-serif;
+--fonte-padrao: 'League Spartan', cursive;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-size: 15px;
+}
+
+/* Esses 2 seletores estavam no HTML */
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
