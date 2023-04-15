@@ -8,8 +8,9 @@
 --cor2: hsl(303, 10%, 53%);
 --cor3: hsl(300, 24%, 96%);
 --cor4: hsl(0, 0%, 100%);
---fonte-sistema: Arial, Verdana, Helvetica, sans-serif;
+--cor5: hsl(228, 45%, 44%);
 --fonte-padrao: 'League Spartan', sans-serif;
+--fonte-sistema: Arial, Verdana, Helvetica, sans-serif;
 }
 
 * {
@@ -22,6 +23,29 @@ body {
   font-family: var(--fonte-padrao);
 }
 
+main {
+  padding: 50px;
+}
+
+h1 {
+  color: var(--cor0);
+  font-weight: 700;
+}
+
+.h1container {
+  display: flex;
+}
+
+.ulcontainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.colunas {
+  columns: 2;
+}
+
 /* Esses 2 seletores estavam no HTML */
 .attribution {
   font-size: 11px;
@@ -29,5 +53,5 @@ body {
 }
 
 .attribution a {
-  color: hsl(228, 45%, 44%);
+  color: var(--cor5);
 }
