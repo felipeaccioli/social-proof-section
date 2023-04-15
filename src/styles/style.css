@@ -32,14 +32,9 @@ h1 {
   font-weight: 700;
 }
 
-.h1container {
+.column-container {
   display: flex;
-}
-
-.ulcontainer {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
+  align-items: flex-between;
 }
 
 .colunas {
