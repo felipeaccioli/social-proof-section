@@ -25,9 +25,16 @@ body {
   background-repeat: no-repeat;
 }
 
+.column-container {
+  display: flex;
+  flex-direction: row;
+}
+
 main {
+  max-width: 900px;
+  margin: auto;
   padding-top: 80px;
-  padding-left: 100px;
+  padding: 100px 100px 0px 100px;
 }
 
 h1 {
@@ -55,8 +62,9 @@ h1 {
   border-radius: 5px;
 }
 
-.column-container {
-  display: flex;
+.rating-list {
+  list-style-type: none;
+  list-style-position: none;
 }
 
 .buyer-box-1, .buyer-box-2, .buyer-box-3 {
@@ -64,6 +72,11 @@ h1 {
   margin: 10px;
   padding: 20px;
   border-radius: 5px;
+  width: 500px;
+}
+
+section {
+  margin: auto;
 }
 
 h2 {
@@ -87,6 +100,7 @@ h3 {
 
 /* Esses 2 seletores estavam no HTML */
 .attribution {
+  color: var(--cor0);
   font-size: 11px;
   text-align: center;
   padding-top: 10px;
